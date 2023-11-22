@@ -9,7 +9,7 @@
 
 In this exercise, we will work on organizing and managing Argo CD applications more effectively. We will create a bootstrap app manifest to serve as a starting point, structure our repository to accommodate multiple apps, and work with a new app manifest for a Helm chart.
 
-## Exercise
+## Exerciseasd
 
 ### Overview
 
