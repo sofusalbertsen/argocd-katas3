@@ -18,7 +18,11 @@ spec:
       helm:
         valueFiles:
           - $values/jenkins/values.yaml
+          - $custom/values.yaml
       chart: jenkins
     - repoURL: 'https://github.com/sofusalbertsen/argocd-katas3'
       targetRevision: main
       ref: values
+    - repoURL: 'https://github.com/sofusalbertsen/argocd-katas3'
+      targetRevision: main
+      ref: custome
