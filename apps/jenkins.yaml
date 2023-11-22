@@ -25,4 +25,4 @@ spec:
       ref: values
     - repoURL: 'https://github.com/sofusalbertsen/argocd-katas3'
       targetRevision: main
-      ref: custome
+      ref: custom
