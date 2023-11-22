@@ -11,7 +11,9 @@ spec:
         owner: sofusalbertsen #e.g. eficode-academy
         # The Github repository
         repo: argocd-katas3 #e.g. argocd-katas
-
+        tokenRef:
+          secretName: student-0-gh
+          key: token
         # Labels is used to filter the PRs that you want to target. (optional)
         labels:
         - test
